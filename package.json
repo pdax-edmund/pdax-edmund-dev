@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "trial exercise for nodejs devt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdax-edmund/pdax-edmund-dev.git"
+  },
+  "author": "edmund nietes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdax-edmund/pdax-edmund-dev/issues"
+  },
+  "homepage": "https://github.com/pdax-edmund/pdax-edmund-dev#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
