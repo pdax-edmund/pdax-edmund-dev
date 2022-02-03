@@ -19,7 +19,8 @@
   "homepage": "https://github.com/pdax-edmund/pdax-edmund-dev#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "pg": "^8.7.1"
+    "pg": "^8.7.1",
+    "uuid": "^8.3.2"
   },
   "keywords": [],
   "devDependencies": {
