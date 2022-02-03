@@ -26,7 +26,12 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    console.log('POST ROUTE');
+    const user = req.body;
+
+    // console.log('user');
+    users.push(user);
+
+    res.send('New user successfully added');
 });
 
 export default router;
