@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 app.use('/users', userRoutes);
 
 app.get('/',(req,res) => {
-    res.send('Hello earthlings')
+    res.send('Presenting my Trial API for CRUD functions')
 });
 
 app.listen(PORT, () => {
-    console.log('server running on port: http://localhost:' + PORT);
+    console.log('Server is running on port: http://localhost:' + PORT);
 });
