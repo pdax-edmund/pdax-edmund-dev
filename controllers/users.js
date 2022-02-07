@@ -23,7 +23,8 @@ export const readUser = (req, res) => {
 //Update user by id
 export const updateUser = (req,res) => {
     const user = users.find((user) => user.id === req.params.id);
-    user.username = req.body.username;
+    user.firstName = req.body.firstName;
+    user.lastName = req.body.lastName;
     user.email = req.body.email;
     console.log(`username has been updated to ${req.body.username}.Email has been updated to ${req.body.email}`)
 };
